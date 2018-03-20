@@ -68,6 +68,12 @@
     letter-spacing: 1px;
 }
 
+@mixin heading-brand-font {
+    font-family: $logo-font;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
 @mixin body-font {
     font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
 }

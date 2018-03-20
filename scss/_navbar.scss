@@ -6,7 +6,7 @@
     @include heading-font;
     .navbar-brand {
         color: $theme-primary;
-        @include heading-font;
+        @include heading-brand-font;
         &:hover,
         &:focus {
             color: darken($theme-primary, 10%);
@@ -59,6 +59,7 @@
         &.navbar-shrink {
             border-color: fade-out($gray-darker, .9);
             background-color: white;
+            border-bottom: 1px solid #bdbdbd;
             .navbar-brand {
                 color: $gray-darker;
                 &:hover,
